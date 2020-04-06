@@ -63,6 +63,16 @@ namespace GasStationApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Oil {
+            get {
+                object obj = ResourceManager.GetObject("Oil", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Start_Page {
             get {
                 object obj = ResourceManager.GetObject("Start Page", resourceCulture);
