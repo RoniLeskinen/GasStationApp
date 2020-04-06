@@ -46,6 +46,7 @@
             this.username_box.Name = "username_box";
             this.username_box.Size = new System.Drawing.Size(242, 26);
             this.username_box.TabIndex = 0;
+            this.username_box.KeyDown += new System.Windows.Forms.KeyEventHandler(this.username_box_KeyDown);
             // 
             // username_text
             // 
@@ -75,6 +76,8 @@
             this.password_box.Name = "password_box";
             this.password_box.Size = new System.Drawing.Size(242, 26);
             this.password_box.TabIndex = 2;
+            this.password_box.TextChanged += new System.EventHandler(this.password_box_TextChanged);
+            this.password_box.KeyDown += new System.Windows.Forms.KeyEventHandler(this.password_box_KeyDown);
             // 
             // login_button
             // 
@@ -84,6 +87,7 @@
             this.login_button.TabIndex = 4;
             this.login_button.Text = "LOGIN";
             this.login_button.UseVisualStyleBackColor = true;
+            this.login_button.Click += new System.EventHandler(this.login_button_Click);
             // 
             // return_button
             // 
@@ -93,6 +97,7 @@
             this.return_button.TabIndex = 5;
             this.return_button.Text = "RETURN";
             this.return_button.UseVisualStyleBackColor = true;
+            this.return_button.Click += new System.EventHandler(this.return_button_Click);
             // 
             // show_box
             // 
@@ -103,6 +108,7 @@
             this.show_box.TabIndex = 6;
             this.show_box.Text = "Show";
             this.show_box.UseVisualStyleBackColor = true;
+            this.show_box.CheckedChanged += new System.EventHandler(this.show_box_CheckedChanged);
             // 
             // Login
             // 
