@@ -47,6 +47,7 @@ namespace GasStationApp
             this.Hide();
         }
 
+        // Clicking this shutdown button will close the program.
         private void sHUTDOWNToolStripMenuItem_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show("Are you sure?", "Program is closing", MessageBoxButtons.YesNo);

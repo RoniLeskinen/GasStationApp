@@ -63,6 +63,26 @@ namespace GasStationApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Billboard {
+            get {
+                object obj = ResourceManager.GetObject("Billboard", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap circle_icon_gas_pump_2 {
+            get {
+                object obj = ResourceManager.GetObject("circle-icon-gas-pump 2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap main_tausta {
             get {
                 object obj = ResourceManager.GetObject("main tausta", resourceCulture);
@@ -73,9 +93,29 @@ namespace GasStationApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap mainostaulu2 {
+            get {
+                object obj = ResourceManager.GetObject("mainostaulu2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Oil {
             get {
                 object obj = ResourceManager.GetObject("Oil", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Prices {
+            get {
+                object obj = ResourceManager.GetObject("Prices", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

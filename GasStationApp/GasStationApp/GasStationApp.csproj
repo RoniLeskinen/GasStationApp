@@ -78,11 +78,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Billboard.resx">
+      <DependentUpon>Billboard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prices.resx">
+      <DependentUpon>Prices.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -118,6 +124,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\main tausta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mainostaulu2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Billboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Prices.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle-icon-gas-pump 2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
