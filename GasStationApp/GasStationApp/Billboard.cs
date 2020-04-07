@@ -47,7 +47,7 @@ namespace GasStationApp
         {
             if (string.IsNullOrEmpty(ad_ToNewForm))
             {
-                ad_txtbox.Text = Product1;
+                ad_txtbox.Text = Product1 + " and " + Product2 + " in total: " + Advertisement;
             }
 
             else if (ad_ToNewForm != "")
@@ -55,7 +55,9 @@ namespace GasStationApp
                 ad_txtbox.Text = (ad_ToNewForm);
                 using (StreamWriter outputFile = new StreamWriter(AdvertisementFile))
                 {
-                    outputFile.WriteLine("Advertisement: " + ad_ToNewForm);
+                    outputFile.WriteLine("Product1 = " + ad_ToNewForm);
+                    outputFile.WriteLine("Product2 = ");
+                    outputFile.WriteLine("Advertisement = ");
                 }
             }
 

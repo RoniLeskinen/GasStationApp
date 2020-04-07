@@ -63,14 +63,14 @@
             // rETURNToolStripMenuItem
             // 
             this.rETURNToolStripMenuItem.Name = "rETURNToolStripMenuItem";
-            this.rETURNToolStripMenuItem.Size = new System.Drawing.Size(252, 30);
+            this.rETURNToolStripMenuItem.Size = new System.Drawing.Size(197, 30);
             this.rETURNToolStripMenuItem.Text = "RETURN";
             this.rETURNToolStripMenuItem.Click += new System.EventHandler(this.rETURNToolStripMenuItem_Click);
             // 
             // sHUTDOWNToolStripMenuItem
             // 
             this.sHUTDOWNToolStripMenuItem.Name = "sHUTDOWNToolStripMenuItem";
-            this.sHUTDOWNToolStripMenuItem.Size = new System.Drawing.Size(252, 30);
+            this.sHUTDOWNToolStripMenuItem.Size = new System.Drawing.Size(197, 30);
             this.sHUTDOWNToolStripMenuItem.Text = "SHUTDOWN";
             this.sHUTDOWNToolStripMenuItem.Click += new System.EventHandler(this.sHUTDOWNToolStripMenuItem_Click);
             // 
@@ -80,6 +80,7 @@
             this.pricelabel_95.Name = "pricelabel_95";
             this.pricelabel_95.Size = new System.Drawing.Size(171, 51);
             this.pricelabel_95.TabIndex = 1;
+            this.pricelabel_95.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pricelabel_98
             // 
@@ -87,6 +88,7 @@
             this.pricelabel_98.Name = "pricelabel_98";
             this.pricelabel_98.Size = new System.Drawing.Size(171, 51);
             this.pricelabel_98.TabIndex = 2;
+            this.pricelabel_98.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pricelabel_dsl
             // 
@@ -94,6 +96,7 @@
             this.pricelabel_dsl.Name = "pricelabel_dsl";
             this.pricelabel_dsl.Size = new System.Drawing.Size(171, 51);
             this.pricelabel_dsl.TabIndex = 3;
+            this.pricelabel_dsl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ad_label
             // 
@@ -112,6 +115,7 @@
             this.ad_txtbox.Name = "ad_txtbox";
             this.ad_txtbox.Size = new System.Drawing.Size(171, 60);
             this.ad_txtbox.TabIndex = 5;
+            this.ad_txtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Billboard
             // 
