@@ -26,8 +26,8 @@ namespace GasStationApp
         public string userfeed;
 
         // Initializing txt.file for username & password
-        public string credentials = AppDomain.CurrentDomain.BaseDirectory + @"\Credentials.txt";
 
+        public string credentials = AppDomain.CurrentDomain.BaseDirectory + @"\Credentials.txt";
         public Login()
         {
             // Checking if credentials file exist, if not then method is called

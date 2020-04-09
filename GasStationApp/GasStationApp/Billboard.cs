@@ -13,9 +13,7 @@ namespace GasStationApp
 {
     public partial class Billboard : Form
     {
-        public static string Product1;
-        public static string Product2;
-        public static string Advertisement;
+        public static string Advertisement = "Hello!";
 
         public string Gas95; //
         public string Gas98; // Variables for taking data from prices form
@@ -47,7 +45,7 @@ namespace GasStationApp
         {
             if (string.IsNullOrEmpty(ad_ToNewForm))
             {
-                ad_txtbox.Text = Product1 + " and " + Product2 + " in total: " + Advertisement;
+                ad_txtbox.Text = Advertisement;
             }
 
             else if (ad_ToNewForm != "")
@@ -55,9 +53,7 @@ namespace GasStationApp
                 ad_txtbox.Text = (ad_ToNewForm);
                 using (StreamWriter outputFile = new StreamWriter(AdvertisementFile))
                 {
-                    outputFile.WriteLine("Product1 = " + ad_ToNewForm);
-                    outputFile.WriteLine("Product2 = ");
-                    outputFile.WriteLine("Advertisement = ");
+                    outputFile.WriteLine("Advertisement = " + ad_ToNewForm);
                 }
             }
 
@@ -71,8 +67,6 @@ namespace GasStationApp
         {
             using (StreamWriter outputFile = new StreamWriter(AdvertisementFile))
             {
-                outputFile.WriteLine("Product1 = " + Product1);
-                outputFile.WriteLine("Product2 = " + Product2);
                 outputFile.WriteLine("Advertisement = " + Advertisement);
             }
         }
@@ -87,10 +81,6 @@ namespace GasStationApp
 
             using (StreamReader sr = new StreamReader(AdvertisementFile))
             {
-                Product1 = sr.ReadLine();
-                Product1 = prosessLine(Product1);
-                Product2 = sr.ReadLine();
-                Product2 = prosessLine(Product2);
                 Advertisement = sr.ReadLine();
                 Advertisement = prosessLine(Advertisement);
             }
